@@ -1,3 +1,9 @@
 [build]
   command = "echo 'building...'"
   publish = "site"
+
+[[redirects]]
+    from = "/website/*"
+    to = "https://www.adartasoftware.com/:splat"
+    status = 200
+    force = false
