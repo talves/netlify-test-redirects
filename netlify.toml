@@ -4,6 +4,6 @@
 
 [[redirects]]
     from = "/website/*"
-    to = "https://portofolio-ion-varsescu.netlify.com/:splat"
+    to = "https://www.adartasoftware.com/:splat"
     status = 200
-    force = false
+    force = true
