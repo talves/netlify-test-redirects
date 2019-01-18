@@ -3,6 +3,11 @@
   publish = "site"
 
 [[redirects]]
+    from = "/*"
+    to = "https://previous-adartasoftware-com.netlify.com/:splat"
+    status = 200
+    force = false
+[[redirects]]
     from = "/oldsite"
     to = "https://previous-adartasoftware-com.netlify.com/"
     status = 200
