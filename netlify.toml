@@ -3,7 +3,17 @@
   publish = "site"
 
 [[redirects]]
+    from = "/"
+    to = "https://www.adartasoftware.com"
+    status = 200
+    force = false
+[[redirects]]
+    from = "/website"
+    to = "https://www.adartasoftware.com"
+    status = 200
+    force = false
+[[redirects]]
     from = "/website/*"
     to = "https://www.adartasoftware.com/:splat"
     status = 200
-    force = true
+    force = false
