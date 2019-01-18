@@ -3,12 +3,12 @@
   publish = "site"
 
 [[redirects]]
-    from = "/search"
-    to = "https://www.google.com/"
+    from = "/oldsite"
+    to = "https://previous-adartasoftware-com.netlify.com/"
     status = 200
     force = false
 [[redirects]]
-    from = "/search/*"
-    to = "https://www.google.com/:splat"
+    from = "/oldsite/*"
+    to = "https://previous-adartasoftware-com.netlify.com/:splat"
     status = 200
     force = false
