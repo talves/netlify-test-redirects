@@ -1,0 +1,5 @@
+# https://testing-redirects.netlify.com?id=23&fbclid=huihd8239732buibiee32809jeee2i90 
+/ fbclid=:fbclid / 301
+/ id=:id fbclid=:fbclid / 301
+/* fbclid=:fbclid /:splat 301!
+/* id=:id fbclid=:fbclid /:splat 301!
